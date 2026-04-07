@@ -167,7 +167,7 @@ const markers = [
     Sandpoint, ID USA<br />
     +1 208.255.4400`,
     coordinates: [48.293487, -116.562983],
-    type: "transformationCenter",
+    type: "installationCenter",
   },
 ];
 
