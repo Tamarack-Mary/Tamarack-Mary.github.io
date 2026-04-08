@@ -14,7 +14,7 @@ const markers = [
     address: `Charlotte Douglas International Airport (KCLT)<br />
    Charlotte, NC USA<br />
     +1 704.359.4674`,
-    coordinates: [-80.92992, 35.21313]],
+    coordinates: [-80.92992, 35.21313],
     type: "installationCenter",
   },
   {
