@@ -14,7 +14,7 @@ const markers = [
     address: `Charlotte Douglas International Airport (KCLT)<br />
    Charlotte, NC USA<br />
     +1 704.359.4674`,
-    coordinates: [-80.92992, 35.21313],
+    coordinates: [-80.92992, 35.21313]],
     type: "installationCenter",
   },
   {
@@ -22,7 +22,7 @@ const markers = [
     address: `Belgrade Nikola Tesla Airport (LYBE)<br />
     Beograd,  Serbia<br />
    +381 222097585`,
-    coordinates: [44.82969, 20.40309],
+    coordinates: [20.40309, 44.82969],
     type: "installationCenter",
   },
   {
@@ -30,7 +30,7 @@ const markers = [
     address: `Eugene R Kranz Toledo Express Airport (KTOL)<br />
     Swanton, OH USA<br />
     +1 419.866.9050`,
-    coordinates: [41.58822, -83.81935],
+    coordinates: [-83.81935,  41.58822],
     type: "installationCenter",
   },
   {
@@ -38,7 +38,7 @@ const markers = [
     address: `Adelaide Airport (YPAD)<br />
     Adelaide Airport, SA Australia<br />
    +61 8 8234 4023`,
-    coordinates: [-34.93679, 138.53286],
+    coordinates: [138.53286, -34.93679],
     type: "installationCenter",
   },
   {
@@ -46,7 +46,7 @@ const markers = [
     address: `Mönchengladbach Airport (EDLN)<br />
     Möenchengladbach,  Germany<br />
     +49 2161 994 8100`,
-    coordinates: [51.22879, 6.49457],
+    coordinates: [6.4957,  51.22879],
     type: "installationCenter",
   },
   {
@@ -54,7 +54,7 @@ const markers = [
     address: `Fort Lauderdale Executive Airport (KFXE)<br />
     Ft. Lauderdale, FL USA<br />
     +1 954.491.3170`,
-    coordinates: [26.19932, -80.18685],
+    coordinates: [-80.18685, 26.19932],
     type: "installationCenter",
   },
   {
@@ -62,7 +62,7 @@ const markers = [
     address: `San Luis Obispo Regional Airport  (KSBP)<br />
     San Luis Obispo, CA USA<br />
     +1 805.548.1337`,
-    coordinates: [35.237252, -120.635276],
+    coordinates: [-120.63535, 35.23658],
     type: "serviceCenter",
   },
   {
@@ -70,7 +70,7 @@ const markers = [
     address: `Miami Executive Airport (KTMB)<br />
     Miami, FL USA<br />
     +1 305.253.0802`,
-    coordinates: [25.646432, -80.419261],
+    coordinates: [-80.41922, 25.64615],
     type: "serviceCenter",
   },
   {
@@ -78,7 +78,7 @@ const markers = [
     address: `Bremen Airport (EDDW)<br />
     Bremen, Germany<br />
     +49 4215 365 8760`,
-    coordinates: [53.053497, 8.777237],
+    coordinates: [8.77857, 53.05441],
     type: "serviceCenter",
   },
   {
@@ -86,7 +86,7 @@ const markers = [
     address: `Mena Intermountain Mun. Airport (KMEZ)<br />
     Mena, AR USA<br />
     +1 479.394.2551`,
-    coordinates: [34.554477, -94.206469],
+    coordinates: [-94.20727, 34.55408],
     type: "serviceCenter",
   },
   {
@@ -94,7 +94,7 @@ const markers = [
     address: `Long Beach Airport (KLGB)<br />
     Long Beach, CA USA<br />
     +1 562.490.9777`,
-    coordinates: [33.815648, -118.140606],
+    coordinates: [-118.15287, 33.81167],
     type: "serviceCenter",
   },
   {
@@ -102,7 +102,7 @@ const markers = [
     address: `Boise Airport (KBOI)<br />
     Boise, ID USA<br />
     +1 800.333.3442`,
-    coordinates: [43.563439, -116.237458],
+    coordinates: [-116.21744, 43.56094],
     type: "serviceCenter",
   },
 {
@@ -110,7 +110,7 @@ const markers = [
     address: `Bromma Airport (ESSB)<br />
     Bromma, Sweden<br />
    +46 8 5661 9000`,
-    coordinates: [59.359627, 17.935228],
+    coordinates: [17.94259, 59.35473],
     type: "serviceCenter",
   },
  {
@@ -118,7 +118,7 @@ const markers = [
     address: `Sorocaba Airport (SDCO)<br />
     Sorocaba – SP, Brazil<br />
     +55 15 3313 9500`,
-    coordinates: [-23.48354, -47.482345],
+    coordinates: [-47.4824, -23.48406],
     type: "serviceCenter",
   },
   {
@@ -126,7 +126,7 @@ const markers = [
     address: `Burlington Municipal Airport (KBUU)<br />
     Burlington, WI USA<br />
     +1 262.763.9500`,
-    coordinates: [42.691248, -88.297086],
+    coordinates: [-88.30388, 42.69204],
     type: "serviceCenter",
   },
   {
@@ -134,7 +134,7 @@ const markers = [
     address: `Guernsey International Airport (EGJB)<br />
     Guernsey, Channel Islands<br />
     +44 1481 265750`,
-    coordinates: [49.432113, -2.598943],
+    coordinates: [-2.60024, 49.43124],
     type: "serviceCenter",
   },
   {
@@ -142,7 +142,7 @@ const markers = [
     address: `Gwinnet County Airport - Brisco Field (KLZU)<br />
     Lawrenceville, GA USA<br />
     +1 855.513.4526`,
-    coordinates: [33.975045, -83.963946],
+    coordinates: [-83.96391, 33.97495],
     type: "serviceCenter",
   },
   {
@@ -150,7 +150,7 @@ const markers = [
     address: `Bournemouth Airport (EGHH)<br />
     Christchurch, Dorset UK<br />
     +44 1202 573243`,
-    coordinates: [50.783576, -1.846204],
+    coordinates: [-1.8462, 50.78349],
     type: "serviceCenter",
   },
   {
@@ -158,7 +158,7 @@ const markers = [
     address: `Chacara Aeroporto (SBJD)<br />
     Jundiai – SP, Brazil<br />
     +55 11 4582 7899`,
-    coordinates: [-23.175049, -46.945041],
+    coordinates: [-46.94485, -23.17542],
     type: "serviceCenter",
   },
   {
@@ -166,10 +166,17 @@ const markers = [
     address: `Sandpoint Airport (KSZT)<br />
     Sandpoint, ID USA<br />
     +1 208.255.4400`,
-    coordinates: [48.293487, -116.562983],
+    coordinates: [-116.56282, 48.29314],
     type: "installationCenter",
   },
-];
+  {
+    name: "Aero Store Aviation Ltda",
+    address: `Sorocaba Airport (SDCO)<br />
+    Sorocaba, SP Brazil<br />
+    +1 55 15 3327-9666`,
+    coordinates: [-47.482408, -23.485897],
+    type: "installationCenter",
+  },];
 
 const MapChart = ({ setTooltipContent }) => {
   const rootEl = document.getElementById("root");
