@@ -191,9 +191,9 @@ const MapChart = ({ setTooltipContent }) => {
   const markersToFilter = markers.filter((marker) => {
     if (marker.type === filter) return marker;
 
-    if (filter === "") return marker;
+    if (filter === "") return true;
+    return marker.type;
 
-    return "";
   });
 
   return (
