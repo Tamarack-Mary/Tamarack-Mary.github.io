@@ -189,8 +189,7 @@ const MapChart = ({ setTooltipContent }) => {
   const [filter, setFilter] = useState(defaultFilter ? defaultFilter : "");
 
   const markersToFilter = markers.filter((marker) => {
-    if (marker.type === filter) return marker;
-
+   
     if (filter === "") return true;
     return marker.type;
 
