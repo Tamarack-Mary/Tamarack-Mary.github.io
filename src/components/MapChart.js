@@ -222,7 +222,7 @@ const MapChart = ({ setTooltipContent }) => {
               Transformation Centers
             </button>
           </li>
-         <li>
+          <li>
             <button
               type="button"
               className={filter === "installationCenter" ? "active" : ""}
