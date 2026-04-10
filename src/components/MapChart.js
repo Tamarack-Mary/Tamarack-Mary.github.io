@@ -162,6 +162,14 @@ const markers = [
     type: "serviceCenter",
   },
   {
+    name: "Aero Store Aviation Ltda",
+    address: `Sorocaba Airport (SDCO)<br />
+    Sorocaba, SP Brazil<br />
+    +1 55 15 3327-9666`,
+    coordinates: [-47.482408, -23.485897],
+    type: "installationCenter",
+  },
+    {
     name: "Tamarack Transformation Center",
     address: `Sandpoint Airport (KSZT)<br />
     Sandpoint, ID USA<br />
@@ -169,14 +177,7 @@ const markers = [
     coordinates: [-116.56282, 48.29314],
     type: "transformationCenter",
   },
-  {
-    name: "Aero Store Aviation Ltda",
-    address: `Sorocaba Airport (SDCO)<br />
-    Sorocaba, SP Brazil<br />
-    +1 55 15 3327-9666`,
-    coordinates: [-47.482408, -23.485897],
-    type: "installationCenter",
-  },];
+];
 
 const MapChart = ({ setTooltipContent }) => {
   const rootEl = document.getElementById("root");
@@ -189,9 +190,9 @@ const MapChart = ({ setTooltipContent }) => {
   const [filter, setFilter] = useState(defaultFilter ? defaultFilter : "");
 
   const markersToFilter = markers.filter((marker) => {
-   
     if (filter === "") return true;
-    return marker.type;
+    return marker.type === filter;
+  });
 
   });
 
