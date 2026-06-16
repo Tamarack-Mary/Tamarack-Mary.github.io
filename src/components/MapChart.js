@@ -97,6 +97,14 @@ const markers = [
     type: "serviceCenter",
   },
   {
+    name: "Central Flying Service",
+    address: `Little Rock Airport (KLIT)<br />
+    Little Rock, AR USA<br />
+    +1 501.975.9600`,
+    coordinates: [-92.225216, 34.724612],
+    type: "serviceCenter",
+  },
+  {
     name: "SoCal Jet Services",
     address: `Long Beach Airport (KLGB)<br />
     Long Beach, CA USA<br />
