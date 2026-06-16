@@ -27,7 +27,7 @@ const markers = [
   {
     name: "Prince Aviation",
     address: `Belgrade Nikola Tesla Airport (LYBE)<br />
-    Beograd,  Serbia<br />
+    Beograd Serbia<br />
    +381 222097585`,
     coordinates: [20.40309, 44.82969],
     type: "installationCenter",
@@ -51,7 +51,7 @@ const markers = [
   {
     name: "Rheinland Air Service GmbH",
     address: `Mönchengladbach Airport (EDLN)<br />
-    Möenchengladbach,  Germany<br />
+    Möenchengladbach  Germany<br />
     +49 2161 994 8100`,
     coordinates: [6.4957,  51.22879],
     type: "installationCenter",
@@ -66,7 +66,7 @@ const markers = [
   },
   {
     name: "ACI Jet",
-    address: `San Luis Obispo Regional Airport  (KSBP)<br />
+    address: `San Luis Obispo Regional Airport (KSBP)<br />
     San Luis Obispo, CA USA<br />
     +1 805.548.1337`,
     coordinates: [-120.63535, 35.23658],
@@ -83,7 +83,7 @@ const markers = [
   {
     name: "Atlas Air Service AG",
     address: `Bremen Airport (EDDW)<br />
-    Bremen, Germany<br />
+    Bremen Germany<br />
     +49 4215 365 8760`,
     coordinates: [8.77857, 53.05441],
     type: "serviceCenter",
@@ -97,6 +97,13 @@ const markers = [
     type: "serviceCenter",
   },
   {
+    name: "Central Flying Service",
+    address: `Little Rock Airport (KLIT)<br />
+    Mena, AR USA<br />
+    +1 501.975.9600`,
+    coordinates: [-94.225216, 34.724612],
+    type: "serviceCenter",
+  },{
     name: "SoCal Jet Services",
     address: `Long Beach Airport (KLGB)<br />
     Long Beach, CA USA<br />
@@ -115,7 +122,7 @@ const markers = [
 {
     name: "Bromma Air Maintenance AB",
     address: `Bromma Airport (ESSB)<br />
-    Bromma, Sweden<br />
+    Bromma Sweden<br />
    +46 8 5661 9000`,
     coordinates: [17.94259, 59.35473],
     type: "serviceCenter",
@@ -123,7 +130,7 @@ const markers = [
  {
     name: "Conal",
     address: `Sorocaba Airport (SDCO)<br />
-    Sorocaba – SP, Brazil<br />
+    Sorocaba – SP Brazil<br />
     +55 15 3313 9500`,
     coordinates: [-47.4824, -23.48406],
     type: "serviceCenter",
@@ -139,7 +146,7 @@ const markers = [
   {
     name: "Fly ASG Limited",
     address: `Guernsey International Airport (EGJB)<br />
-    Guernsey, Channel Islands<br />
+    Guernsey Channel Islands<br />
     +44 1481 265750`,
     coordinates: [-2.60024, 49.43124],
     type: "serviceCenter",
@@ -163,7 +170,7 @@ const markers = [
   {
     name: "Solojet Aviação",
     address: `Chacara Aeroporto (SBJD)<br />
-    Jundiai – SP, Brazil<br />
+    Jundiai – SP Brazil<br />
     +55 11 4582 7899`,
     coordinates: [-46.94485, -23.17542],
     type: "serviceCenter",
