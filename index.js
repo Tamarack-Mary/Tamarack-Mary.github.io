@@ -19,10 +19,15 @@
     +1 805.548.1337`,coordinates:[-120.63535, 35.23658],type:"serviceCenter"},{name:"Toledo Jet",address:`Eugene R Kranz Express Airport (KTOL)<br />
     Swanton, OH USA<br />
     +1 419.866.9050`,coordinates:[-83.81935, 41.58822],type:"installationCenter"},{name:"Rose Aircraft Services, Inc.",address:`Mena Intermountain Mun. Airport (KMEZ)<br />
+<<<<<<< HEAD
     Mena, AR USA<br />
     +1 479.394.2551`,coordinates:[-94.20727, 34.55408],type:"serviceCenter"},{name:"Central Flying Service",address:`Little Rock Airport (KLIT)<br />
     Little Rock, AR USA<br />
     +1 479.394.2551`,coordinates:[-94.225216, 34.724612],type:"serviceCenter"},{name:"SoCal Jet Services",address:`Long Beach Airport (KLGB)<br />
+=======
+    Mena, AR<br />
+    +1 479.394.2551`,coordinates:[-94.20727, 34.55408],type:"serviceCenter"},{name:"SoCal Jet Services",address:`Long Beach Airport (KLGB)<br />
+>>>>>>> dc0a02f9b7830def718761e2e181c79a36c19dde
     Long Beach, CA USA<br />
     +1 800.372.1698`,coordinates:[-118.15287, 33.81167],type:"serviceCenter"},{name:"Western Aircraft",address:`Boise Airport (KBOI)<br />
     Boise, ID USA<br />
@@ -34,6 +39,11 @@
     Bromma Sweden<br />
     +46 8 5661 9000`,coordinates:[17.94259, 59.35473],type:"serviceCenter"},{name:"Conal",address:`Sorocaba Airport (SDCO)<br />
     Sorocaba – SP Brazil<br />
+<<<<<<< HEAD
+=======
+    +55 15 3313 9500`,coordinates:[-47.4824, -23.48406],type:"serviceCenter"},{name:"Central Flying Service",address:`Little Rock Airport (KLIT)<br />
+    Little Rock, AR USA<br />
+>>>>>>> dc0a02f9b7830def718761e2e181c79a36c19dde
     +55 15 3313 9500`,coordinates:[-47.4824, -23.48406],type:"serviceCenter"},{name:"Prince Aviation",address:`Belgrade Nikola Tesla Airport (LYBE)<br />
     Belgrade Serbia<br />
     +381 222097585`,coordinates:[20.40309, 44.82969],type:"serviceCenter"},{name:"Signature Technicair",address:`Bournemouth Airport (EGHH)<br />

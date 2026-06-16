@@ -99,9 +99,9 @@ const markers = [
   {
     name: "Central Flying Service",
     address: `Little Rock Airport (KLIT)<br />
-    Mena, AR USA<br />
+    Little Rock, AR USA<br />
     +1 501.975.9600`,
-    coordinates: [-94.225216, 34.724612],
+    coordinates: [-92.225216, 34.724612],
     type: "serviceCenter",
   },{
     name: "SoCal Jet Services",
