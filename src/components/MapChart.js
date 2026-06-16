@@ -466,8 +466,9 @@ const MapChart = ({ setTooltipContent }) => {
               })
             }
           </Geographies>
-          {markersToFilter.map(
-            ({ name, coordinates, type, address }, index) => (
+          {markersToFilter.map(({ name, coordinates, type, address }, index) => {
+            const isTarget = name === "Central Flying Service";
+            return (
               <Marker
                 key={index}
                 coordinates={coordinates}
@@ -487,12 +488,32 @@ const MapChart = ({ setTooltipContent }) => {
                 <path
                   transform="translate(-10.5,-32.0981)"
                   d="M10.5 0.917603C5.1141 0.917603 0.75 5.26415 0.75 10.6481C0.75 19.9574 10.5 32.0981 10.5 32.0981C10.5 32.0981 20.25 19.9555 20.25 10.6481C20.25 5.2661 15.8859 0.917603 10.5 0.917603ZM10.5 16.0321C9.10364 16.0321 7.76446 15.4774 6.77708 14.49C5.7897 13.5026 5.235 12.1634 5.235 10.7671C5.235 9.37069 5.7897 8.03151 6.77708 7.04414C7.76446 6.05676 9.10364 5.50205 10.5 5.50205C11.8964 5.50205 13.2355 6.05676 14.2229 7.04414C15.2103 8.03151 15.765 9.37069 15.765 10.7671C15.765 12.1634 15.2103 13.5026 14.2229 14.49C13.2355 15.4774 11.8964 16.0321 10.5 16.0321Z"
-                  style={{ opacity: 0.8 }}
-                  fill={MARKER_COLORS[type] || MARKER_COLORS.default}
+                  style={{ opacity: 1 }}
+                  fill="#ffffff"
                 />
+                <path
+                  transform="translate(-10.5,-32.0981)"
+                  d="M10.5 0.917603C5.1141 0.917603 0.75 5.26415 0.75 10.6481C0.75 19.9574 10.5 32.0981 10.5 32.0981C10.5 32.0981 20.25 19.9555 20.25 10.6481C20.25 5.2661 15.8859 0.917603 10.5 0.917603ZM10.5 16.0321C9.10364 16.0321 7.76446 15.4774 6.77708 14.49C5.7897 13.5026 5.235 12.1634 5.235 10.7671C5.235 9.37069 5.7897 8.03151 6.77708 7.04414C7.76446 6.05676 9.10364 5.50205 10.5 5.50205C11.8964 5.50205 13.2355 6.05676 14.2229 7.04414C15.2103 8.03151 15.765 9.37069 15.765 10.7671C15.765 12.1634 15.2103 13.5026 14.2229 14.49C13.2355 15.4774 11.8964 16.0321 10.5 16.0321Z"
+                  style={{ opacity: 0.95 }}
+                  fill={isTarget ? "#FFD54F" : (MARKER_COLORS[type] || MARKER_COLORS.default)}
+                  stroke={isTarget ? "#BF360C" : "#0D374F"}
+                  strokeWidth={isTarget ? 2 : 1.5}
+                  strokeLinejoin="round"
+                  strokeLinecap="round"
+                />
+                {isTarget && (
+                  <text
+                    x={0}
+                    y={-22}
+                    textAnchor="middle"
+                    style={{ fontSize: 10, fontWeight: 700, fill: "#BF360C" }}
+                  >
+                    Central Flying
+                  </text>
+                )}
               </Marker>
-            )
-          )}
+            );
+          })}
         </ZoomableGroup>
       </ComposableMap>
       <style
