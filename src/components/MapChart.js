@@ -97,14 +97,6 @@ const markers = [
     type: "serviceCenter",
   },
   {
-    name: "Central Flying Service",
-    address: `Little Rock Airport (KLIT)<br />
-    Little Rock, AR USA<br />
-    +1 501.975.9600`,
-    coordinates: [-92.225216, 34.724612],
-    type: "serviceCenter",
-  },
-  {
     name: "SoCal Jet Services",
     address: `Long Beach Airport (KLGB)<br />
     Long Beach, CA USA<br />
@@ -192,6 +184,16 @@ const markers = [
     coordinates: [-47.482408, -23.485897],
     type: "installationCenter",
   },];
+// Ensure Central Flying Service is drawn last so it isn't occluded by nearby markers
+markers.push({
+  name: "Central Flying Service",
+  address: `Little Rock Airport (KLIT)<br />
+    Little Rock, AR USA<br />
+    +1 501.975.9600`,
+  coordinates: [-92.225216, 34.724612],
+  type: "serviceCenter",
+});
+
 
 const MapChart = ({ setTooltipContent }) => {
   const rootEl = document.getElementById("root");
