@@ -105,6 +105,14 @@ const markers = [
     type: "serviceCenter",
   },
   {
+    name: "Advantage Aircraft Services Inc.",
+    address: `Corpus Christi International Airport (KCRP)<br />
+    Corpus Christi, TX USA<br />
+    +1 361.289.1884`,
+    coordinates: [-97.504295, 27.776567],
+    type: "serviceCenter",
+  },
+  {
     name: "SoCal Jet Services",
     address: `Long Beach Airport (KLGB)<br />
     Long Beach, CA USA<br />
