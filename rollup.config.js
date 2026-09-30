@@ -24,12 +24,14 @@ export default {
     }),
     replace({
       'process.env.NODE_ENV': JSON.stringify('production'),
+      preventAssignment: true,
     }),
     json(),
     postcss({
       extensions: ['.css'],
     }),
     babel({
+      babelHelpers: 'bundled',
       presets: ['@babel/preset-react'],
     }),
     commonjs(),
