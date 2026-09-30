@@ -17,14 +17,6 @@ const MARKER_COLORS = {
 
 const markers = [
     {
-    name: "Davinci Jets",
-    address: `Charlotte Douglas International Airport (KCLT)<br />
-   Charlotte, NC USA<br />
-    +1 704.359.4674`,
-    coordinates: [-80.92992, 35.21313],
-    type: "installationCenter",
-  },
-  {
     name: "Prince Aviation",
     address: `Belgrade Nikola Tesla Airport (LYBE)<br />
     Beograd Serbia<br />
@@ -54,14 +46,6 @@ const markers = [
     Möenchengladbach  Germany<br />
     +49 2161 994 8100`,
     coordinates: [6.4957,  51.22879],
-    type: "installationCenter",
-  },
-  {
-    name: "Toledo Jet",
-    address: `Fort Lauderdale Executive Airport (KFXE)<br />
-    Ft. Lauderdale, FL USA<br />
-    +1 954.491.3170`,
-    coordinates: [-80.18685, 26.19932],
     type: "installationCenter",
   },
   {
